@@ -3,9 +3,6 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-p, ul, h1, h2, h3{
-    margin: 0;
-}
 a {
     text-decoration: none;
 }
