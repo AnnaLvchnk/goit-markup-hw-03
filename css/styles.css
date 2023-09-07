@@ -60,8 +60,10 @@ img{
 }
 .hero-section {
     background-color: #2E2F42;
+    padding: 188px, 0, 292px;
 }
 .hero-title {
+   
     color: #fff;
     font-size: 56px;
     font-weight: 700;
