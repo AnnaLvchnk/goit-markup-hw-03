@@ -140,16 +140,20 @@ img {
     color: #fff;
 }
 /* Features section */
+.title {
+    visibility: hidden;
+}
 .features-section {
     padding: 120px 0;
 }
-.title {
-    display: none;
-}
+
 .features-list {
     display: flex;
     gap: 24px;
     margin: 0;
+}
+.features-item {
+    width: calc((100% - 72px) / 4);
 }
 .features-title {
     color: #2E2F42;
@@ -268,7 +272,7 @@ img {
 /* Footer */
 .footer {
     background-color: #2E2F42;
-    padding: 140px 0 100px 156px;
+    padding: 100px 0;
     max-width: 1158px;
     margin: 0 auto;
 
@@ -289,7 +293,8 @@ img {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-accent{
     color: #f4f4fd;
