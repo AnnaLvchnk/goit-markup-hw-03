@@ -31,10 +31,9 @@ img {
     margin: 0 auto;
 }
 /* Header */
-.header-inner {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 .header-nav {
     display: flex;
@@ -56,6 +55,7 @@ img {
     letter-spacing: 0.03em;
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
 .logo-accent {
     color: #2E2F42;
@@ -72,7 +72,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: inline-block;
     padding: 24px 0;
 }
 .nav-link:active {
@@ -140,7 +139,7 @@ img {
     color: #fff;
 }
 /* Features section */
-.title {
+.visually-hidden {
     visibility: hidden;
 }
 .features-section {
