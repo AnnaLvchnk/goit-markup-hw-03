@@ -31,8 +31,10 @@ img {
     margin: 0 auto;
 }
 /* Header */
-.header-container {
+.header {
     border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
