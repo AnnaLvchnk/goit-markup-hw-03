@@ -80,6 +80,7 @@ img {
 .header-contact {
     display: flex;
     gap: 40px;
+    padding: auto;
 }
 .adress {
     font-style: normal;
